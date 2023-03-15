@@ -332,3 +332,5 @@ for y in list(range(1,51)) :
 
 print(sum(z),end="명")     
 ```
+### 결과
+![image](https://user-images.githubusercontent.com/104752580/225229763-236a84f3-3eda-4da5-b032-28bc35129703.png)
