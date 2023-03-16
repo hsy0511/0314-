@@ -311,7 +311,6 @@ print(a) # a 리스트 안에 2개에 for문을 사용하여 구구단을 출력
 ```
 # Quiz
 ```python
-# Quiz
 from random import *
 a = list(range(1,51))
 b = sample(list(range(5,51)),1)
@@ -325,12 +324,12 @@ for y in list(range(1,51)) :
     if 5<=z[0]<=15 :
         print("[o]{0}번째 손님 (소요시간 : {1}분".format(y,z[0]))
         x=x+1
-    elif x == 15:
-        print("[]{0}번째 손님 (소요시간 : {1}분".format(y,z[0]))
     else:
         print("[]{0}번째 손님 (소요시간 : {1}분".format(y,z[0]))
 
-print(sum(z),end="명")     
+
+print(x,end="명")  
 ```
 ### 결과
-![image](https://user-images.githubusercontent.com/104752580/225229763-236a84f3-3eda-4da5-b032-28bc35129703.png)
+![image](https://user-images.githubusercontent.com/104752580/225478211-f9bfdfd3-fba3-45c5-915a-76440fe86bd3.png)
+
